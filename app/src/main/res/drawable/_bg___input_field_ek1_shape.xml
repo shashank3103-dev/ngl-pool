@@ -1,0 +1,21 @@
+<!-- res/drawable/edit_text_outline_with_shape.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Focused state -->
+	<item android:state_focused="true">
+		<shape android:shape="rectangle">
+			<corners android:radius="10dp" /> <!-- Adjust corner radius as needed -->
+			<stroke android:color="@color/_bg__button_ek1_color" android:width="2dp"/>
+			<!-- Adjust the outline color and width as needed -->
+			<solid android:color="@color/_bg___input_field_ek1_color" /> <!-- Set shape background color -->
+		</shape>
+	</item>
+	<!-- Default state -->
+	<item>
+		<shape android:shape="rectangle">
+			<corners android:radius="10dp" /> <!-- Adjust corner radius as needed -->
+			<stroke android:color="@color/_bg___input_field_ek1_color" android:width="1dp"/>
+			<!-- Adjust the default outline color and width as needed -->
+			<solid android:color="@color/_bg___input_field_ek1_color" /> <!-- Set shape background color -->
+		</shape>
+	</item>
+</selector>
