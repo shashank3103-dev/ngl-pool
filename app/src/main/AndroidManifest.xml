@@ -13,6 +13,21 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:name=".forgot_password_radio_button"
+            android:exported="false" />
+        <activity
+            android:name=".forget_password_1"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_password_0"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_password_number"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_password_mail"
+            android:exported="false" />
+        <activity
             android:name=".sign_up"
             android:exported="false" />
         <activity

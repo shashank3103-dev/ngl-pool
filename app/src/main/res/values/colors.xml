@@ -12,7 +12,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="forget_password__color">#FFFFFF</color>
 
+    <color name="remember_your_password__login_color">#807F9E</color>
+    <color name="ellipse_241_color">#ffffff</color>
 
     <color name="_bg__sign_in_1_ek2_color">#151515</color>
     <color name="_bg__sign_in_ek1_color">#000000</color>

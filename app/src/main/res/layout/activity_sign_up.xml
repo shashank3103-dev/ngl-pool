@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/_bg__sign_in_ek1_shape"
     tools:context=".sign_in">
  <RelativeLayout
      android:layout_width="match_parent"
-     android:layout_height="wrap_content">
+     android:layout_height="match_parent">
 <!--    create an account-->
     <RelativeLayout android:id="@+id/group_6"
         android:layout_centerHorizontal="true"
@@ -117,6 +118,8 @@
 
             </RelativeLayout>
 
+<!--                confirm password-->
+
             <RelativeLayout android:id="@+id/password_ek5"
                 android:layout_marginTop="120dp"
                 android:layout_marginStart="0dp"
@@ -157,6 +160,7 @@
                     </EditText>
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:id="@+id/input_field4"
                     android:layout_marginTop="120dp"
@@ -220,7 +224,7 @@
                             />
 
                         <RelativeLayout
-                            android:id="@+id/input_field5"
+                            android:id="@+id/input_field6"
                             android:layout_marginTop="36dp"
                             android:layout_marginStart="0dp"
                             android:layout_width="wrap_content"
@@ -243,8 +247,55 @@
                             </EditText>
 
                         </RelativeLayout>
+
                     </RelativeLayout>
-                    
+
+                    <RelativeLayout
+
+                        android:layout_marginTop="120dp"
+
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:id="@+id/dob"
+                            android:textSize="16sp"
+                            android:textColor="@color/email_address_color"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="124.6dp"
+                            android:layout_height="28.6dp"
+                            android:text="Date of Birth (Optional)"
+                            />
+
+                        <RelativeLayout
+                            android:id="@+id/input_field5"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <Spinner
+                                android:id="@+id/spinner"
+                                android:background="@drawable/_bg___input_field_ek1_shape"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_width="327dp"
+                                android:textSize="15dp"
+                                android:textColor="@color/enter_email_address_color"
+                                android:textColorHint="@color/enter_email_address_color"
+                                android:paddingStart="8dp"
+
+                                android:hint="Enter Last Name"
+                                android:layout_height="52dp" >
+                            </Spinner>
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
 
                 </RelativeLayout>
         </RelativeLayout>

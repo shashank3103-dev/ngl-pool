@@ -17,4 +17,8 @@
     <string name="login_to_access_your_account_string">Login to access your account</string>
     <string name="time_string">9:41</string>
     <string name="create_a_account">Create an Account</string>
+    <string name="remember_your_password__login_string">Remember your password?</string>
+    <string name="we_sent_a_password_reset_link_to_kel_____gmail_com__click_on_the_link_in_your_number_to_reset_your_password__string">We sent a password reset link to +91 7895*******8. Click on the link in your number to reset your password.</string>
+    <string name="we_sent_a_password_reset_link_to_kel_____gmail_com__click_on_the_link_in_your_email_to_reset_your_password__string">We sent a password reset link to kel....@gmail.com. Click on the link in your email to reset your password.</string>
+    <string name="choose_how_you_want_to_recover_your_password">Choose how you want to recover your password</string>
 </resources>
